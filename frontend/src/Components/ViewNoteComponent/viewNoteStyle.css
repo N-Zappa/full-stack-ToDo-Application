@@ -1,0 +1,42 @@
+.App {
+  background-color: rgb(41, 27, 170);
+  height: 100vh;
+}
+.note-container {
+  position: relative;
+  margin-left: 10%;
+  width: 80%;
+  box-shadow: 0px 5px 15px 5px rgb(0, 0, 0, 0.5);
+  padding: 5% 5%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+}
+
+.to-notes-btn {
+  background: transparent;
+  border: 2px solid rgb(41, 27, 170);
+  outline: none;
+  border-radius: 6px;
+  color: rgb(41, 27, 170);
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 16%;
+  transition: 0.5s;
+  margin-left: 42%;
+}
+
+.to-notes-btn:hover {
+  background: rgb(41, 27, 170);
+  color: #fff;
+}

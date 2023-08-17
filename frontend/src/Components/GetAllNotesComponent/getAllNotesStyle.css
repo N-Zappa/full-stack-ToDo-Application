@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(41, 27, 170);
+  height: 100%;
+}
+.App {
+  background-color: rgb(41, 27, 170);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0px 5px 15px 5px rgb(0, 0, 0, 0.2);
+}
+
+.btn-func-edit {
+  background: transparent;
+  border: 2px solid #3d8a29;
+  outline: none;
+  border-radius: 6px;
+  color: #3d8a29;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 85px;
+  transition: 0.5s;
+}
+
+.btn-func-edit:hover {
+  background: #3d8a29;
+  color: #505050;
+}
+
+.btn-func-delete {
+  background: transparent;
+  border: 2px solid #ff0000;
+  outline: none;
+  border-radius: 6px;
+  color: #ff0000;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 85px;
+  transition: 0.5s;
+}
+
+.btn-func-delete:hover {
+  background: #ff0000;
+  color: #505050;
+}
+
+.btn-func-details {
+  background: transparent;
+  border: 2px solid #008cff;
+  outline: none;
+  border-radius: 6px;
+  color: #008cff;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 85px;
+  transition: 0.5s;
+}
+
+.btn-func-details:hover {
+  background: #008cff;
+  color: #505050;
+}
+
+.notes-container {
+  position: relative;
+  margin-left: 10%;
+  width: 80%;
+  box-shadow: 0px 5px 15px 5px rgb(0, 0, 0, 0.5);
+  padding: 5% 5%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.btn-add {
+  background: transparent;
+  border: 2px solid rgb(41, 27, 170);
+  outline: none;
+  border-radius: 6px;
+  color: rgb(41, 27, 170);
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 16%;
+  transition: 0.5s;
+  margin-left: 42%;
+}
+
+.btn-add:hover {
+  background: rgb(41, 27, 170);
+  color: #fff;
+}

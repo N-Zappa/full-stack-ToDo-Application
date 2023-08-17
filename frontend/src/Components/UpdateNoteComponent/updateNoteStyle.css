@@ -1,0 +1,54 @@
+.App {
+  background-color: rgb(41, 27, 170);
+  height: 100vh;
+}
+.formContainer {
+  position: relative;
+  margin-left: 20%;
+  width: 60%;
+  box-shadow: 0px 5px 15px 5px rgb(0, 0, 0, 0.5);
+  padding: 5% 5%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.btn-add {
+  background: transparent;
+  border: 2px solid rgb(41, 27, 170);
+  outline: none;
+  border-radius: 6px;
+  color: rgb(41, 27, 170);
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 16%;
+  transition: 0.5s;
+  margin-left: 42%;
+}
+
+.btn-add:hover {
+  background: rgb(41, 27, 170);
+  color: #fff;
+}
+
+.text-style {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+}
+.error-style {
+  text-align: center;
+  color: red;
+}

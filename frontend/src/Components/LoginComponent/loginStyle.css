@@ -1,0 +1,55 @@
+.App {
+  background-color: rgb(41, 27, 170);
+  height: 100vh;
+}
+.login-container {
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  box-shadow: 0px 5px 15px 5px rgb(0, 0, 0, 0.5);
+  padding: 5% 5%;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.fields-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(188, 181, 255);
+}
+
+.btn-login {
+  background: transparent;
+  border: 2px solid rgb(41, 27, 170);
+  outline: none;
+  border-radius: 6px;
+  color: rgb(41, 27, 170);
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 10px;
+  width: 16%;
+  transition: 0.5s;
+  margin-left: 42%;
+}
+.btn-login:hover {
+  background: rgb(41, 27, 170);
+  color: #fff;
+}
+.text-style {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: black;
+}
+
+.error-style {
+  text-align: center;
+  color: red;
+}
